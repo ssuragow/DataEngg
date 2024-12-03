@@ -1,0 +1,24 @@
+{
+	"name": "OUTPUT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LInkedserviceforstrtestswathi",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "universitylist.csv",
+				"folderPath": "output",
+				"container": "testadfswathi"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
