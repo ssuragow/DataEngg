@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "testDFSwathi"
+		},
+		"LInkedserviceforstrtestswathi_connectionString": {
+			"value": ""
+		},
+		"Strogaredatalake_accountKey": {
+			"value": ""
+		},
+		"Httplinkedservice_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"Strogaredatalake_properties_typeProperties_url": {
+			"value": "https://mydatalake26.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
