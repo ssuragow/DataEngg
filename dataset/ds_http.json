@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "ssuragow/DataEngg/blob/main/DATA/AdventureWorks_Products.csv"
+				"relativeUrl": "ssuragow/DataEngg/refs/heads/main/DATA/AdventureWorks_Products.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
